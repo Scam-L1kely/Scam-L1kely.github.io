@@ -1,4 +1,5 @@
 pre 	{
+		font-family:Verdana,Tahoma;
 		color:#FFB000;
     	}
 body	{
@@ -21,7 +22,7 @@ a:hover {
     }
 h1 {
   text-align: center;
-  font-family: "Comic Sans MS"
+  font-family: "Comic Sans MS";
 }
 .button {
   border: none;
