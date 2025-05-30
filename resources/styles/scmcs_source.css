@@ -49,7 +49,9 @@ h1 {
 .center {
   text-align: center;
   border: 3px solid #FFB000;
-  padding: 8px 512px;
+  padding: 8px;
+  width: 512px;
+  margin-left: 650px;
 }
 
 footer {
