@@ -1,0 +1,65 @@
+* {font-family: "Comic Sans MS", "Comic Sans", cursive}
+
+body {
+    background: #511F16; 
+    background-image: url(https://media.discordapp.net/attachments/1355663843568783423/1378609610323132437/image.png?ex=683d39c0&is=683be840&hm=6fb2cf72ab8a1ef79c032517fea01f7c689bec3c85fdd77f6b68cd8364bd665d&=&format=webp&quality=lossless&width=2484&height=1514);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #F43FAC;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid #F43FAC;
+  padding: 8px;
+  width: 512px;
+  margin-left: 650px;
+}
+
+.button {
+  border: none;
+  padding: 8px 128px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display: block;
+  align-content: center;
+}
+
+.button1 {
+  background-color: black; 
+  color: #F43FAC;
+  border: 2px solid #F43FAC;
+}
+
+.button1:hover {
+  background: linear-gradient(189deg,rgba(255, 0, 0, 1) 0%, rgba(252, 105, 0, 1) 50%, rgba(234, 255, 0, 1) 100%);
+  color: black;
+}
+
+#trail-container {
+    position: fixed; /* Cover the entire viewport */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allow clicks through the trail container */
+    z-index: 999; /* Ensure trail is above content*/
+}
+
+.trail-element {
+    position: absolute;
+    width: 10px; /* Adjust as needed */
+    height: 10px; /* Adjust as needed */
+    background-color: #F43FAC; /* Adjust color */
+    border-radius: 50%; /* Circular elements */
+    opacity: 0.7; /* Set initial opacity */
+    transition: opacity 0.5s ease-out, transform 0.3s ease-out; /* Transition for fading and scaling*/
+}
+
+h1 {
+    background: -webkit-linear-gradient(#EEAECA, #94BBE9);
+}
