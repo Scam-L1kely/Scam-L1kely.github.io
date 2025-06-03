@@ -49,7 +49,9 @@ h1 {
   border: 3px solid #FFB000;
   padding: 8px;
   width: 512px;
-  margin-left: 650px;
+  left: 50%;
+  top: 15%;
+  position: absolute;
 }
 
 footer {
