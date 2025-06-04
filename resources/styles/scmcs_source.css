@@ -48,11 +48,10 @@ h1 {
 .center {
   text-align: center;
   border: 3px solid #FFB000;
-  padding: 8px;
-  width: 512px;
-  left: 50%;
-  top: 15%;
-  position: absolute;
+  padding: 8px; /* Horizontal centering */
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
@@ -99,7 +98,7 @@ div.image {
 .marquee-content {
     display: inline-block; /* Allow animation to work */
     padding-left: 100%; /* Start off-screen */
-    animation: marquee 15s linear infinite; /* Animation with duration, speed, and looping */
+    animation: marquee 10s linear infinite; /* Animation with duration, speed, and looping */
 }
 
 @keyframes marquee {
