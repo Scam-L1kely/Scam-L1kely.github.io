@@ -1,7 +1,5 @@
 body	{
-		margin-left:8px;
-		margin-top:0px;
-    font-family:Tahoma;
+    font-family: "Roboto",Tahoma;
 		color:#FFB000;
     background: #000;
 		}
@@ -9,10 +7,10 @@ a:link  {
     color:  white;
     }
 a:visited   {
-    color:  #969696;
+    color:  hsl(0, 1%, 72%);
     }
 a:active    {
-    color:  white;
+    color:  hsl(0, 0%, 66%);
     }
 a:hover {
     color:  white;
@@ -32,6 +30,7 @@ h1 {
   cursor: pointer;
   display: block;
   align-content: center;
+  border-radius: 10px;
 }
 
 .button1 {
@@ -48,14 +47,15 @@ h1 {
 .center {
   text-align: center;
   border: 3px solid #FFB000;
-  padding: 8px; /* Horizontal centering */
-  width: 500px;
+  padding: 15px; /* Horizontal centering */
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 10px;
 }
 
 footer {
-  padding: 10px;
+  padding: 30px;
   text-align: center;
 }
 
