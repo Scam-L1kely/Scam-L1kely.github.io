@@ -1,16 +1,18 @@
 body	{
-    font-family: "Roboto",Tahoma;
+    font-family: "Comic Sans MS", "Roboto", verdana, sans-serif;
 		color:#FFB000;
     background: #000;
 		}
 a:link  {
     color:  white;
+    
     }
 a:visited   {
     color:  hsl(0, 1%, 72%);
     }
 a:active    {
     color:  hsl(0, 0%, 66%);
+    text-decoration:wavy;
     }
 a:hover {
     color:  white;
@@ -20,7 +22,6 @@ h1 {
   text-align: center;
 }
 .button {
-  border: none;
   padding: 8px 128px;
   text-align: center;
   display: inline-block;
@@ -29,7 +30,6 @@ h1 {
   transition-duration: 0.4s;
   cursor: pointer;
   display: block;
-  align-content: center;
   border-radius: 10px;
 }
 

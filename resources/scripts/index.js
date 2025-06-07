@@ -1,6 +1,6 @@
-//let text;
-//if (confirm("Press a button!") == true) {
-//  text = "You pressed OK!";
-//} else {
-//  text = "You canceled!";
-///}
+let fullName ="Javan Scriptenberg";
+let age = 21;
+let isStudent = false;
+console.log(`your name is ${fullName}`);
+console.log(`you are ${age} years old`);
+console.log(`you are still enrolled at school ${isStudent}`);
